@@ -10,8 +10,8 @@ AUTH_TOKEN = os.environ.get("AUTH_TOKEN")
 TO_NUM = os.environ.get("TO_NUM")
 
 parameters = {
-    "lat": 26.144518,
-    "lon": 91.736237,
+    "lat": 13.082680,
+    "lon": 80.270721,
     "appid": API_KEY,
     "cnt": 4,
 }
