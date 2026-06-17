@@ -28,6 +28,6 @@ jobs:
           # This connects your GitHub secrets safely to your Python script
           ACCOUNT_SID: ${{ secrets.ACCOUNT_SID }}
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
-          TO_NUM: ${{ secrets.To_NUM }}
+          TO_NUM: ${{ secrets.TO_NUM }}
           API_KEY: ${{ secrets.API_KEY }}
         run: python main.py
