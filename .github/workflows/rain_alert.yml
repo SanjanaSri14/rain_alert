@@ -3,7 +3,7 @@ name: Rain Alert Task
 on:
   schedule:
     # Runs daily at 14:55 UTC (8:25 PM IST)
-    - cron: '30 14 * * *'
+    - cron: '37 14 * * *'
   workflow_dispatch: # Allows you to run it manually right now!
 
 jobs:
