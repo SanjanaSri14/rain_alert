@@ -24,7 +24,7 @@ weather_id = weather_data["list"]
 
 will_rain = False
 for i in weather_data["list"]:
-    if i["weather"][0]["id"] < 700:
+    if i["weather"][0]["id"] < 1000:
         will_rain = True
 if will_rain:
     client = Client(ACCOUNT_SID, AUTH_TOKEN)
